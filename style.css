@@ -8,6 +8,10 @@ table td, thead th {
     border: 1px solid black;
     padding: 12px;
 }
+.Ranking th{
+    border: 1px solid black;
+    padding: 12px;
+}
 
 table tr:nth-child(even) {
     background-color: grey;
@@ -31,5 +35,5 @@ table th {
 
 }
 .LR{
-    float: right;
+    padding-left: 1300px;
 }
