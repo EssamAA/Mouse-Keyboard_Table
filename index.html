@@ -11,10 +11,11 @@
 <body>
 
     <h1>Saudi Roshn League matches for Round 24 & 25 of 2022/2023 season</h1>
-    <input type="text" name="teamName" id="search">
+    <h3>*Note: some teams have played their games or atleast one of them ahead of these dates</h3>
+    <input type="text" name="teamName" id="search" onkeyup="filterByAnyTeam()" placeholder="Search">
 
-    <select class="Teams" onchange="filterByTeams()">
-        <option selected="" value="">Top 3 Teams</option>
+    <select class="Teams" onchange="filterByTopTeams()">
+        <option selected="" value="">All Games</option>
         <option value="ittihad">Al-Ittihad 1st</option>
         <option value="Nassr">Al-Nassr 2nd</option>
         <option value="Shabab">Al-Shabab 3rd</option>
